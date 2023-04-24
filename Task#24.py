@@ -1,6 +1,6 @@
 #Задание 24
-bush_number = int(input())
-berry_number = list(map(int, input().split()))
+bush_number = int(input("Введите кол-во кустов: "))
+berry_number = list(map(int, input("Введите кол-во ягод на кусте: ").split()))
 max_berry = 0
 
 for i in range(bush_number):
